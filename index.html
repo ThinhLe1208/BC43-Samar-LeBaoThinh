@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samar</title>
+
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+
+    <!-- FONT ROBOTO-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME ICON -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- LINE AWESOME ICON -->
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+    <!-- FLAT ICON -->
+    <link rel="stylesheet" href="./css/flaticon/flaticon.css">
+
+    <!-- ANIMATE -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- LIGHT GALLERY -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/css/lightgallery-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="https://samar.dexignzone.com/xhtml/vendor/swiper/css/swiper.min.css">
+
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <div class="header__container">
+                <div class="header__logo">
+                    <img src="./img/logo-2.png" alt="logo-2">
+                </div>
+                <div class="header__menu">
+                    <div class="header__nav">
+                        <a href="#">
+                            <span>Home</span>
+                            <i class="fa fa-chevron-down"></i>
+                        </a>
+                        <a href="#">
+                            <span>Pages</span>
+                            <i class="fa fa-chevron-down"></i>
+                        </a>
+                        <a href="#">
+                            <span>Services</span>
+                            <i class="fa fa-chevron-down"></i>
+                        </a>
+                        <a href="#">
+                            <span>Post Layout</span>
+                            <i class="fa fa-chevron-down"></i>
+                        </a>
+                        <a href="#">
+                            <span>Blog</span>
+                            <i class="fa fa-chevron-down"></i>
+                        </a>
+                        <a href="#">
+                            <span>Contact Us</span>
+                            <i class="fa fa-chevron-down"></i>
+                        </a>
+                    </div>
+                    <div class="header__nav-responsive">
+                        <input type="checkbox" id="header__nav-responsive">
+                        <label class="header__nav-responsive-overlay" for="header__nav-responsive"></label>
+                        <label class="header__nav-responsive-btn" for="header__nav-responsive">
+                            <i class="fa-solid fa-bars"></i>
+                        </label>
+                        <label class="header__nav-responsive-content" for="header__nav-responsive">
+                            <a href="#">
+                                <span>Home</span>
+                            </a>
+                            <a href="#">
+                                <span>Pages</span>
+                            </a>
+                            <a href="#">
+                                <span>Services</span>
+                            </a>
+                            <a href="#">
+                                <span>Post Layout</span>
+                            </a>
+                            <a href="#">
+                                <span>Blog</span>
+                            </a>
+                            <a href="#">
+                                <span>Contact Us</span>
+                            </a>
+                        </label>
+                    </div>
+                    <div class="header__button">
+                        <button class="button">GET A QUOTE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- CAROUSEL -->
+    <section class="carousel">
+        <div class="container">
+            <div class="carousel__container">
+                <div class="carousel__left">
+                    <h3 class="subtitle animate__animated animate__fadeInUp">We are The Best</h3>
+                    <h2 class="title animate__animated animate__fadeInUp animate__delay-1s">Freelance
+                        Product<br>Designer Running</h2>
+                    <p class="animate__animated animate__fadeInUp animate__delay-2s">We develop the relationships that
+                        underpin the next phase in your organisation’s growth.</p>
+                    <ul class="animate__animated animate__fadeInUp animate__delay-3s">
+                        <li>
+                            <i class="las la-check"></i>
+                            <p>Master's degree in designing</p>
+                        </li>
+                        <li>
+                            <i class="las la-check"></i>
+                            <p>Outstanding mobile design</p>
+                        </li>
+                    </ul>
+                    <div class="carousel__button">
+                        <button class="button animate__animated animate__fadeInUp animate__delay-4s">GET
+                            STARTED</button>
+                    </div>
+                </div>
+                <div class="carousel__right animate__animated animate__fadeInUp animate__delay-3s">
+                    <img src="./img/pic3_1.png" alt="pic3_1">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services">
+        <div class="container">
+            <div class="services__container">
+                <h2 class="subtitle">What We Do Best</h2>
+                <h3 class="title">Our Digital Services</h3>
+                <div class="services__content">
+                    <div class="services__item">
+                        <img src="./img/pic1_3.jpg" alt="pic1-3">
+                        <h3>Web Development</h3>
+                        <p>Vestibulum a efficitur ex. Ut iaculis dapibus iaculis. Praesent lacus magna, rhoncus quis
+                            magna quis.</p>
+                    </div>
+                    <div class="services__item">
+                        <img src="./img/pic2_2.jpg" alt="pic2-2">
+                        <h3>Strategy & Research</h3>
+                        <p>Vestibulum a efficitur ex. Ut iaculis dapibus iaculis. Praesent lacus magna, rhoncus quis
+                            magna quis.</p>
+                    </div>
+                    <div class="services__item">
+                        <img src="./img/pic3_2.jpg" alt="pic3-2">
+                        <h3>Growth Tracking</h3>
+                        <p>Vestibulum a efficitur ex. Ut iaculis dapibus iaculis. Praesent lacus magna, rhoncus quis
+                            magna quis.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about">
+        <div class="container">
+            <div class="about__container">
+                <div class="about__left wow animate__animated animate__fadeInLeft" data-wow-duration="2s"
+                    data-wow-delay="0.2s">
+                    <img src="./img/pic1.jpg" alt="pic1">
+                </div>
+                <div class="about__right wow animate__animated animate__fadeInRight" data-wow-duration="2s"
+                    data-wow-delay="0.2s">
+                    <h3 class="subtitle">About Us</h3>
+                    <h2 class="title">Build Your Business Website Better</h2>
+                    <p>Proin laoreet leo vel enim gravida, at porttitor metus ultricies. Cras eu velit enim. Vivamus
+                        blandit, dolor ut aliquet rutrum, ex elit mattis sapien, non molestie felis neque et nulla. Sed
+                        euismod turpis id nibh suscipit semper. Pellentesque dapibus risus arcu.</p>
+                    <ul>
+                        <li>
+                            <i class="flaticon-check"></i>
+                            <span>We support programs that create advancement opportunities for people.</span>
+                        </li>
+                        <li>
+                            <i class="flaticon-check"></i>
+                            <span>Get a view of events and trends. Be updated on our recent news.
+                            </span>
+                        </li>
+                        <li>
+                            <i class="flaticon-check"></i>
+                            <span>Finally, it all comes down to people. Creating a winning team.</span>
+                        </li>
+                        <li>
+                            <i class="flaticon-check"></i>
+                            <span>Get a view of events and trends. Be updated on our recent news.
+                            </span>
+                        </li>
+                    </ul>
+                    <div class="about__button">
+                        <button class="button">LEARN MORE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NUMBERS -->
+    <section class="numbers">
+        <div class="container">
+            <div class="numbers__container">
+                <div class="numbers__item">
+                    <i class="flaticon-smile"></i>
+                    <div class="numbers__number">
+                        <span class="counter">18</span>
+                        <span>Ml</span>
+                    </div>
+                    <p>Satisfied Clients</p>
+                </div>
+                <div class="numbers__item">
+                    <i class="flaticon-line-chart"></i>
+                    <div class="numbers__number">
+                        <span class="counter">20</span>
+                        <span>Ml</span>
+                    </div>
+                    <p>Project Completed</p>
+                </div>
+                <div class="numbers__item">
+                    <i class="flaticon-startup"></i>
+                    <div class="numbers__number">
+                        <span class="counter">30</span>
+                        <span>Ml</span>
+                    </div>
+                    <p>Project Lunched</p>
+                </div>
+                <div class="numbers__item">
+                    <i class="flaticon-confetti"></i>
+                    <div class="numbers__number">
+                        <span class="counter">50</span>
+                    </div>
+                    <p>Years Completed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features">
+        <div class="container">
+            <div class="features__container">
+                <div class="features__left">
+                    <h3 class="subtitle wow animate__animated animate__fadeInLeft" data-wow-duration="2s"
+                        data-wow-delay="0.2s">Our Features</h3>
+                    <h2 class="title  wow animate__animated animate__fadeInLeft" data-wow-duration="2s"
+                        data-wow-delay="0.2s">Behind The Story Of Samar Agency</h2>
+                    <div class="features__item wow animate__animated animate__fadeInRight" data-wow-duration="2s"
+                        data-wow-delay="0.4s">
+                        <i class="flaticon-idea"></i>
+                        <div class="features__text">
+                            <h3>Idea & Analysis Gathering</h3>
+                            <p>Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl leo, sit amet consequat augue.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="features__item wow animate__animated animate__fadeInRight" data-wow-duration="2s"
+                        data-wow-delay="0.6s">
+                        <i class="flaticon-coding"></i>
+                        <div class="features__text">
+                            <h3>Design & Developing</h3>
+                            <p>Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl leo, sit amet consequat augue.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="features__item wow animate__animated animate__fadeInRight" data-wow-duration="2s"
+                        data-wow-delay="0.8s">
+                        <i class="flaticon-rocket"></i>
+                        <div class="features__text">
+                            <h3>Testing & Lunching</h3>
+                            <p>Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl leo, sit amet consequat augue.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="features__right">
+                    <img src="./img/pic3.png" alt="pic3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="portfolio">
+        <div class="container">
+            <div class="portfolio__container">
+                <h3 class="subtitle">Portfolio</h3>
+                <h2 class="title">Our Latest Work</h2>
+                <div class="portfolio__content" id="animated-thumbnails-gallery">
+                    <div class="portfolio__item wow animate__animated animate__fadeInUp">
+                        <img src="./img/pic1_2.jpg" alt="pic1-2">
+                        <div class="portfolio__overlay">
+                            <div class="portfolio__overlay-icon">
+                                <a class="pic" data-src="./img/pic1_2.jpg" data-exthumbimage="./img/pic1_2.jpg"
+                                    data-sub-html="Design">
+                                    <i class="la la-plus"></i>
+                                </a>
+                            </div>
+                            <div class="portfolio__overlay-text">
+                                <h3>Software Landing</h3>
+                                <p>By Jhone Doe</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__item wow animate__animated animate__fadeInUp">
+                        <img src="./img/pic2_1.jpg" alt="pic2-1">
+                        <div class="portfolio__overlay">
+                            <div class="portfolio__overlay-icon">
+                                <a class="pic" data-src="./img/pic2_1.jpg" data-exthumbimage="./img/pic2_1.jpg"
+                                    data-sub-html="Design">
+                                    <i class="la la-plus"></i>
+                                </a>
+                            </div>
+                            <div class="portfolio__overlay-text">
+                                <h3>Software Landing</h3>
+                                <p>By Jhone Doe</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__item  wow animate__animated animate__fadeInUp" data-wow-delay="1s">
+                        <img src="./img/pic3_1.jpg" alt="pic3-1">
+                        <div class="portfolio__overlay">
+                            <div class="portfolio__overlay-icon">
+                                <a class="pic" data-src="./img/pic3_1.jpg" data-exthumbimage="./img/pic3_1.jpg"
+                                    data-sub-html="Design">
+                                    <i class="la la-plus"></i>
+                                </a>
+                            </div>
+                            <div class="portfolio__overlay-text">
+                                <h3>Software Landing</h3>
+                                <p>By Jhone Doe</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__item  wow animate__animated animate__fadeInUp" data-wow-delay="1s">
+                        <img src="./img/pic4.jpg" alt="pic4">
+                        <div class="portfolio__overlay">
+                            <div class="portfolio__overlay-icon">
+                                <a class="pic" data-src="./img/pic4.jpg" data-exthumbimage="./img/pic4.jpg"
+                                    data-sub-html="Design">
+                                    <i class="la la-plus"></i>
+                                </a>
+                            </div>
+                            <div class="portfolio__overlay-text">
+                                <h3>Software Landing</h3>
+                                <p>By Jhone Doe</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__item  wow animate__animated animate__fadeInUp" data-wow-delay="2s">
+                        <img src="./img/pic5.jpg" alt="pic5">
+                        <div class="portfolio__overlay">
+                            <div class="portfolio__overlay-icon">
+                                <a class="pic" data-src="./img/pic5.jpg" data-exthumbimage="./img/pic5.jpg"
+                                    data-sub-html="Design">
+                                    <i class="la la-plus"></i>
+                                </a>
+                            </div>
+                            <div class="portfolio__overlay-text">
+                                <h3>Software Landing</h3>
+                                <p>By Jhone Doe</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__item  wow animate__animated animate__fadeInUp" data-wow-delay="1s">
+                        <img src="./img/pic6.jpg" alt="pic6">
+                        <div class="portfolio__overlay">
+                            <div class="portfolio__overlay-icon">
+                                <a class="pic" data-src="./img/pic6.jpg" data-exthumbimage="./img/pic6.jpg"
+                                    data-sub-html="Design">
+                                    <i class="la la-plus"></i>
+                                </a>
+                            </div>
+                            <div class="portfolio__overlay-text">
+                                <h3>Software Landing</h3>
+                                <p>By Jhone Doe</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PLAN -->
+    <section class="plan">
+        <div class="container">
+            <div class="plan__container">
+                <h3 class="subtitle">Choose Your Plan</h3>
+                <h2 class="title">Choose Your Plan</h2>
+                <div class="plan__content">
+                    <div class="plan__item">
+                        <h3>Basic Plan</h3>
+                        <img src="./img/pic4_1.jpg" alt="pic4-1">
+                        <p><span>$49</span>/Month</p>
+                        <ul>
+                            <li>
+                                <i class="fa fa-check"></i>
+                                Graphic Design
+                            </li>
+                            <li>
+                                <i class="fa fa-check"></i>
+                                Web Design
+                            </li>
+                            <li>
+                                <i class="fa fa-check"></i>
+                                UI/UX
+                            </li>
+                            <li>
+                                <i class="fa fa-check"></i>
+                                HTML/CSS
+                            </li>
+                            <li>
+                                <i class="fa fa-check"></i>
+                                SEO Marketing
+                            </li>
+                            <li>
+                                <i class="fa fa-check"></i>
+                                Business Analysis
+                            </li>
+                        </ul>
+                        <button class="button">START NOW</button>
+                    </div>
+                    <div class="plan__item">
+                        <h3>Basic Plan</h3>
+                        <img src="./img/pic5_1.jpg" alt="pic5-1">
+                        <p><span>$49</span>/Month</p>
+                        <ul>
+                            <li>
+                                <i class="fa fa-check"></i>
+                                Graphic Design
+                            </li>
+                            <li>
+                                <i class="fa fa-check"></i>
+                                Web Design
+                            </li>
+                            <li>
+                                <i class="fa fa-check"></i>
+                                UI/UX
+                            </li>
+                            <li>
+                                <i class="fa fa-check"></i>
+                                HTML/CSS
+                            </li>
+                            <li>
+                                <i class="fa fa-check"></i>
+                                SEO Marketing
+                            </li>
+                            <li>
+                                <i class="fa fa-check"></i>
+                                Business Analysis
+                            </li>
+                        </ul>
+                        <button class="button">START NOW</button>
+                    </div>
+                    <div class="plan__item">
+                        <h3>Basic Plan</h3>
+                        <img src="./img/pic6_1.jpg" alt="pic6-1">
+                        <p><span>$49</span>/Month</p>
+                        <ul>
+                            <li>
+                                <i class="fa fa-check"></i>
+                                Graphic Design
+                            </li>
+                            <li>
+                                <i class="fa fa-check"></i>
+                                Web Design
+                            </li>
+                            <li>
+                                <i class="fa fa-check"></i>
+                                UI/UX
+                            </li>
+                            <li>
+                                <i class="fa fa-check"></i>
+                                HTML/CSS
+                            </li>
+                            <li>
+                                <i class="fa fa-check"></i>
+                                SEO Marketing
+                            </li>
+                            <li>
+                                <i class="fa fa-check"></i>
+                                Business Analysis
+                            </li>
+                        </ul>
+                        <button class="button">START NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIAL -->
+    <section class="testimonial">
+        <div class="container">
+            <div class="testimonial__container">
+                <h3 class="subtitle">Testimonial</h3>
+                <h2 class="title">What Our Clients Say’s</h2>
+                <div class="testimonial__content">
+
+                    <div class="swiper-container testimonial-thumbs">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="testimonial__pic">
+                                    <img src="./img/pic3_3.jpg" alt="pic3-3">
+                                    <div class="shape-bx"></div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial__pic">
+                                    <img src="./img/pic1_4.jpg" alt="pic1-4">
+                                    <div class="shape-bx"></div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial__pic">
+                                    <img src="./img/pic2_3.jpg" alt="pic2-3">
+                                    <div class="shape-bx"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-container testimonial-comment">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="testimonial__text">
+                                    <i class="flaticon-quotation"></i>
+                                    <h3>Cak Dikin 1</h3>
+                                    <h4>CEO & Founder</h4>
+                                    <p>Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non
+                                        vestibulum
+                                        auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc. Etiam sed
+                                        facilisis
+                                        erat.</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial__text">
+                                    <i class="flaticon-quotation"></i>
+                                    <h3>Cak Dikin 1</h3>
+                                    <h4>CEO & Founder</h4>
+                                    <p>Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non
+                                        vestibulum
+                                        auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc. Etiam sed
+                                        facilisis
+                                        erat.</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial__text">
+                                    <i class="flaticon-quotation"></i>
+                                    <h3>Cak Dikin 1</h3>
+                                    <h4>CEO & Founder</h4>
+                                    <p>Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non
+                                        vestibulum
+                                        auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc. Etiam sed
+                                        facilisis
+                                        erat.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOG -->
+    <section class="blog">
+        <div class="container">
+            <div class="blog__container">
+                <h3 class="subtitle">Our Blog</h3>
+                <h2 class="title">Latest News & Blog</h2>
+                <div class="blog__content owl-carousel owl-theme">
+                    <div class="blog__item">
+                        <div class="blog__img">
+                            <img src="./img/pic1_1.jpg" alt="pic1-1">
+                            <span class="blog__date">23 MARCH 2022</span>
+                        </div>
+                        <div class="blog__content">
+                            <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                            <p>Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac aliquam. Phasellus justo
+                                quam.</p>
+                        </div>
+                        <div class="blog__footer">
+                            <div class="blog__footer-item">
+                                <i class="las la-user-circle"></i>
+                                <p>BY <span>JOHNE DOE</span>
+                                </p>
+                            </div>
+                            <div class="blog__footer-item">
+                                <i class="las la-comment"></i>
+                                <p>COMMENTS 15</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog__item">
+                        <div class="blog__img">
+                            <img src="./img/pic2.jpg" alt="pic2">
+                            <span class="blog__date">23 MARCH 2022</span>
+                        </div>
+                        <div class="blog__content">
+                            <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                            <p>Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac aliquam. Phasellus justo
+                                quam.</p>
+                        </div>
+                        <div class="blog__footer">
+                            <div class="blog__footer-item">
+                                <i class="las la-user-circle"></i>
+                                <p>BY <span>JOHNE DOE</span>
+                                </p>
+                            </div>
+                            <div class="blog__footer-item">
+                                <i class="las la-comment"></i>
+                                <p>COMMENTS 15</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog__item">
+                        <div class="blog__img">
+                            <img src="./img/pic3.jpg" alt="pic3">
+                            <span class="blog__date">23 MARCH 2022</span>
+                        </div>
+                        <div class="blog__content">
+                            <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                            <p>Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac aliquam. Phasellus justo
+                                quam.</p>
+                        </div>
+                        <div class="blog__footer">
+                            <div class="blog__footer-item">
+                                <i class="las la-user-circle"></i>
+                                <p>BY <span>JOHNE DOE</span>
+                                </p>
+                            </div>
+                            <div class="blog__footer-item">
+                                <i class="las la-comment"></i>
+                                <p>COMMENTS 15</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__container">
+                <div class="footer__input wow animate__animated animate__fadeInUp">
+                    <h3>Subscribe To Our Newsletter</h3>
+                    <div class="footer__email">
+                        <input type="email" placeholder="Your Email Address">
+                        <button class="button">
+                            <i class="las la-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="footer__content">
+                    <div class="footer__item footer__contact wow animate__animated animate__fadeIn" data-wow-delay="1s">
+                        <a href="#">
+                            <img src="./img/logo-white.png" alt="logo-white">
+                        </a>
+                        <ul>
+                            <li>
+                                <i class="fa fa-phone"></i>
+                                <span>1800-123-4567<br>
+                                    +91 987-654-3210</p>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope"></i>
+                                <span>info@example.com<br>
+                                    services@gmail.com</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>
+                                    Demo Address #8901 Marmora<br>
+                                    Road City</sp>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__item wow animate__animated animate__fadeIn" data-wow-delay="1s">
+                        <h3>Our links</h3>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    About Us
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    Services
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    Team
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    Blog
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__item wow animate__animated animate__fadeIn" data-wow-delay="1s">
+                        <h3>Our Services</h3>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    Strategy & Research
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    Web Development
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    Web Solution
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    Digital Marketing
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    App Design
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__item wow animate__animated animate__fadeIn" data-wow-delay="1s">
+                        <h3>Other links</h3>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    FAQ
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    Portfolio
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    Privacy Policy
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    Terms & Conditions
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    Support
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <div class="container">
+                <div class="footer__copyright-content">
+                    <div class="footer__copyright-text">
+                        <p>Copyright © 2021 <span>DexignZone</span> .&nbsp;</p>
+                        <p>All rights reserved.</p>
+                    </div>
+                    <div class="footer__socials">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BACK TO TOP -->
+    <a href="#" class="backToTop cd-top text-replace js-cd-top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+    <!-- JAVASCRIPT -->
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <!-- COUNT UP -->
+    <script src="./js/jquery.countup.js"></script>
+    <script>
+        $('.counter').countUp({
+            'time': 4000
+        });
+    </script>
+
+    <!-- WOW -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <!-- LIGHT GALLERY -->
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/lightgallery.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/plugins/thumbnail/lg-thumbnail.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/plugins/zoom/lg-zoom.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/plugins/fullscreen/lg-fullscreen.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/plugins/autoplay/lg-autoplay.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/plugins/share/lg-share.min.js"></script>
+    <script>
+        lightGallery(document.getElementById('animated-thumbnails-gallery'), {
+            selector: ".pic",
+            plugins: [lgZoom, lgThumbnail, lgAutoplay, lgFullscreen, lgShare],
+            alignThumbnails: "left",
+            loop: true,
+            allowMediaOverlap: true,
+            toggleThumb: true,
+            showZoomInOutIcons: true,
+            actualSize: false,
+            exThumbImage: "data-exthumbimage",
+            controls: true
+        });
+    </script>
+
+    <!-- SWIPER -->
+    <script src="https://samar.dexignzone.com/xhtml/vendor/swiper/js/swiper.min.js"></script>
+    <script>
+        var testimonialThumbs = new Swiper(".testimonial-thumbs", {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            centeredSlides: true,
+            freeMode: true,
+            autoplay: true,
+            loop: true,
+            speed: 3000
+        });
+        var testimonialContent = new Swiper(".testimonial-comment", {
+            spaceBetween: 10,
+            autoplay: true,
+            loop: true,
+            speed: 3000,
+            thumbs: {
+                swiper: testimonialThumbs
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true
+            }
+        });
+    </script>
+
+    <!-- OWL CAROUSEL -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 30,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                768: {
+                    items: 2
+                },
+                992: {
+                    items: 3
+                }
+            }
+        })
+    </script>
+
+    <!-- BACK TO TOP -->
+    <script src="./js/backToTop.js"></script>
+    <script src="./js/util.js"></script>
+
+</body>
+
+</html>
