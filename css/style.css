@@ -3,6 +3,7 @@
     --pink-color: #f55f8d;
     --grey-color: #262626;
     --gradient: to right, #f55f8d 0, #f8ae56 51%, #f55f8d 100%;
+    --animate-duration: 2s;
 }
 
 * {
@@ -99,6 +100,7 @@ body {
     display: inline-block;
     padding: 10px 0;
     text-decoration: none;
+    color: var(--grey-color);
     margin-right: 26px;
 }
 
@@ -106,7 +108,6 @@ body {
     display: inline-block;
     font-size: 1.5rem;
     font-weight: 700;
-    color: var(--grey-color);
     margin-right: 2px;
     transition: color linear 0.3s;
 }
@@ -154,36 +155,40 @@ body {
     border-radius: 2px;
     color: var(--pink-color);
     background-color: var(--grey-color);
+    cursor: pointer;
 }
 
 .header__nav-responsive-content {
-    /* position: absolute;
-    top: 100px;
-    right: 0;
-    width: 200px; */
-
     position: fixed;
     top: 100px;
     right: 0;
     left: 0;
-
+    height: 330px;
+    max-height: calc(100vh - 100px);
     background-color: #eeeeee;
-    padding: 10px 24px;
     display: none;
 }
 
+.header__nav-responsive-content ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    list-style: none;
+}
+
+.header__nav-responsive-content li {
+    text-align: center;
+}
+
 .header__nav-responsive-content a {
-    display: block;
-    font-size: 2.4rem;
-    font-weight: 700;
-    color: var(--grey-color);
+    display: inline-block;
     text-decoration: none;
-    padding: 5px 0;
 }
 
 .header__nav-responsive-content span {
     display: inline-block;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 700;
     color: var(--grey-color);
 }
@@ -481,6 +486,8 @@ body {
     padding: 8px 26px;
     transition: all linear 3s;
     overflow: hidden;
+    background-color: #fff;
+    z-index: 1;
 }
 
 .features__left div:nth-of-type(2) {
@@ -498,7 +505,7 @@ body {
     background-image: linear-gradient(var(--gradient));
     background-size: 200%;
     transition: all linear 1s;
-    z-index: -1;
+    z-index: 3;
 }
 
 .features__item:hover::after {
@@ -508,6 +515,8 @@ body {
 .features__item h3,
 .features__item p,
 .features__item i {
+    position: relative;
+    z-index: 9;
     transition: all linear 0.5s;
 }
 
@@ -546,6 +555,7 @@ body {
     left: 8%;
     animation: rotateLoop 4s linear infinite;
     animation-direction: alternate;
+    z-index: 10;
 }
 
 @keyframes rotateLoop {
@@ -668,7 +678,7 @@ body {
 
 .portfolio__overlay-text {
     position: absolute;
-    bottom: -52px;
+    bottom: -56px;
     left: 30px;
     text-align: left;
     transition: all linear 0.5s;

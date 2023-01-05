@@ -88,24 +88,14 @@
                             <i class="fa-solid fa-bars"></i>
                         </label>
                         <label class="header__nav-responsive-content" for="header__nav-responsive">
-                            <a href="#">
-                                <span>Home</span>
-                            </a>
-                            <a href="#">
-                                <span>Pages</span>
-                            </a>
-                            <a href="#">
-                                <span>Services</span>
-                            </a>
-                            <a href="#">
-                                <span>Post Layout</span>
-                            </a>
-                            <a href="#">
-                                <span>Blog</span>
-                            </a>
-                            <a href="#">
-                                <span>Contact Us</span>
-                            </a>
+                            <ul>
+                                <li><a href="#"><span>Home</span></a></li>
+                                <li><a href="#"><span>Pages</span></a></li>
+                                <li><a href="#"><span>Services</span></a></li>
+                                <li><a href="#"><span>Post Layout</span></a></li>
+                                <li><a href="#"><span>Blog</span></a></li>
+                                <li><a href="#"><span>Contact Us</span></a></li>
+                            </ul>
                         </label>
                     </div>
                     <div class="header__button">
@@ -183,12 +173,10 @@
     <section class="about">
         <div class="container">
             <div class="about__container">
-                <div class="about__left wow animate__animated animate__fadeInLeft" data-wow-duration="2s"
-                    data-wow-delay="0.2s">
+                <div class="about__left wow animate__animated animate__fadeInLeft " data-wow-delay="0.2s">
                     <img src="./img/pic1.jpg" alt="pic1">
                 </div>
-                <div class="about__right wow animate__animated animate__fadeInRight" data-wow-duration="2s"
-                    data-wow-delay="0.2s">
+                <div class="about__right wow animate__animated animate__fadeInRight" data-wow-delay="0.2s">
                     <h3 class="subtitle">About Us</h3>
                     <h2 class="title">Build Your Business Website Better</h2>
                     <p>Proin laoreet leo vel enim gravida, at porttitor metus ultricies. Cras eu velit enim. Vivamus
@@ -266,12 +254,11 @@
         <div class="container">
             <div class="features__container">
                 <div class="features__left">
-                    <h3 class="subtitle wow animate__animated animate__fadeInLeft" data-wow-duration="2s"
-                        data-wow-delay="0.2s">Our Features</h3>
-                    <h2 class="title  wow animate__animated animate__fadeInLeft" data-wow-duration="2s"
-                        data-wow-delay="0.2s">Behind The Story Of Samar Agency</h2>
-                    <div class="features__item wow animate__animated animate__fadeInRight" data-wow-duration="2s"
-                        data-wow-delay="0.4s">
+                    <h3 class="subtitle wow animate__animated animate__fadeInLeft" data-wow-delay="0.2s">Our Features
+                    </h3>
+                    <h2 class="title  wow animate__animated animate__fadeInLeft" data-wow-delay="0.2s">Behind The Story
+                        Of Samar Agency</h2>
+                    <div class="features__item wow animate__animated animate__fadeInRight" data-wow-delay="0.4s">
                         <i class="flaticon-idea"></i>
                         <div class="features__text">
                             <h3>Idea & Analysis Gathering</h3>
@@ -279,8 +266,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="features__item wow animate__animated animate__fadeInRight" data-wow-duration="2s"
-                        data-wow-delay="0.6s">
+                    <div class="features__item wow animate__animated animate__fadeInRight" data-wow-delay="0.6s">
                         <i class="flaticon-coding"></i>
                         <div class="features__text">
                             <h3>Design & Developing</h3>
@@ -288,8 +274,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="features__item wow animate__animated animate__fadeInRight" data-wow-duration="2s"
-                        data-wow-delay="0.8s">
+                    <div class="features__item wow animate__animated animate__fadeInRight" data-wow-delay="0.8s">
                         <i class="flaticon-rocket"></i>
                         <div class="features__text">
                             <h3>Testing & Lunching</h3>
@@ -875,7 +860,14 @@
             showZoomInOutIcons: true,
             actualSize: false,
             exThumbImage: "data-exthumbimage",
-            controls: true
+            controls: true,
+            mobileSettings: {
+                showCloseIcon: true,
+                showZoomInOutIcons: false,
+                toggleThumb: false,
+                controls: false,
+                closeOnTap: true
+            }
         });
     </script>
 

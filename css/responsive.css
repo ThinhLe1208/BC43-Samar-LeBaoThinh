@@ -138,6 +138,7 @@
     .carousel__left {
         width: 100%;
         padding-bottom: 40px;
+        padding-right: 0;
     }
 
     .carousel__right {
