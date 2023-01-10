@@ -104,6 +104,11 @@ body {
     margin-right: 26px;
 }
 
+a.active i,
+a.active span {
+    color: var(--pink-color);
+}
+
 .header__nav span {
     display: inline-block;
     font-size: 1.5rem;
@@ -131,18 +136,7 @@ body {
 /* NAV RESPONSIVE */
 
 .header__nav-responsive {
-    position: relative;
     display: none;
-}
-
-.header__nav-responsive-overlay {
-    display: none;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .header__nav-responsive-btn {
@@ -159,21 +153,30 @@ body {
 }
 
 .header__nav-responsive-content {
-    position: fixed;
+    position: absolute;
     top: 100px;
     right: 0;
     left: 0;
-    height: 330px;
+    height: 0;
     max-height: calc(100vh - 100px);
-    background-color: #eeeeee;
-    display: none;
+    background-color: rgb(255 255 255 / 90%);
+    transition: all linear 0.3s;
+    overflow: hidden;
+    box-shadow: none;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+
+.header__nav-responsive #header__nav-responsive:checked~.header__nav-responsive-content {
+    height: 330px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
 }
 
 .header__nav-responsive-content ul {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 100%;
+    height: 330px;
     list-style: none;
 }
 
@@ -200,11 +203,6 @@ body {
 
 #header__nav-responsive {
     display: none;
-}
-
-.header__nav-responsive #header__nav-responsive:checked~.header__nav-responsive-overlay,
-.header__nav-responsive #header__nav-responsive:checked~.header__nav-responsive-content {
-    display: block;
 }
 
 .header__button {
