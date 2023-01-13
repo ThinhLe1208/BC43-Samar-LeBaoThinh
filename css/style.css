@@ -456,6 +456,7 @@ a.active span {
 .features {
     background: url(../img/bg2.png) center / 100% no-repeat scroll;
     padding: 112px 0;
+    overflow: hidden;
 }
 
 .features__container {
@@ -664,7 +665,7 @@ a.active span {
     cursor: pointer;
     opacity: 0;
     transition: all linear 0.5s;
-    z-index: 70;
+    z-index: 80;
 }
 
 .portfolio__overlay i {
